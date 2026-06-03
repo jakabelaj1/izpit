@@ -1,9 +1,9 @@
 :root {
     --bg-color: #1E1E1E;
     --bg-color-secondary: #333333;
-    --text-color: #F7F7F7;
+    --text-color: #CCCCCC;
     --text-color-secondary: #E65F78;
-    --text-color-tertiary: #C6C6C6;
+    --text-color-tertiary: white;
     font-family: "open-sans", sans-serif;
 }
 
@@ -78,6 +78,7 @@ margin-left: 80px ;
     display: inline;
     font-size: 4.5em;
     font-weight: 800;
+    color: var(--text-color-tertiary);
 }
 
 .content-surname {
@@ -91,7 +92,7 @@ margin-left: 80px ;
 .content-subtext {
     font-family: "open-sans", sans-serif;
     font-size: 1.5em;
-    color: var(--text-color-tertiary);
+    color: var(--text-color);
     font-weight: 300;
 }
 
@@ -125,7 +126,7 @@ margin-left: 80px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--text-color);
+    color: var(--text-color-tertiary);
     font-weight: 800;
     font-size: 3em;
 }
@@ -148,7 +149,7 @@ margin-left: 80px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--text-color);
+    color: var(--text-color-tertiary);
     background-color: var(--text-color-secondary);
     padding: 14px 20px;
     line-height: 170%;
@@ -177,6 +178,7 @@ margin-left: 80px ;
 }
 .footer-text {
     line-height: 170%;
+    color: var(--text-color-tertiary);
 
 }
 .footer span {
