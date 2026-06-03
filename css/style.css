@@ -26,14 +26,14 @@
 
 }
 .header-logo {
-margin-left: 80px ;
+margin-left: 160px ;
 }
 .header-nav-list {
     display: flex;
     list-style: none;
     gap: 32px;
     justify-content: flex-end;
-    margin-right: 80px ;
+    margin-right: 160px ;
 
 }
 .header-nav-list-item {
