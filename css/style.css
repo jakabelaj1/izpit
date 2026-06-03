@@ -2,6 +2,8 @@
     --bg-color: #1E1E1E;
     --bg-color-secondary: #333333;
     --text-color: #F7F7F7;
+    --text-color-secondary: #E65F78;
+    font-family: "open-sans", sans-serif;
 }
 
 * {
@@ -33,6 +35,9 @@ margin-left: 80px ;
     margin-right: 80px ;
 
 }
+.header-nav-list-item {
+    font-size: 1em;
+}
 .container {
     max-width: 1500px;
     margin: 0 auto;
@@ -45,6 +50,7 @@ margin-left: 80px ;
     background-color: var(--bg-color);
     align-items: center;
     justify-content: center;
+    gap: 50px;
 }
 
 .content-circle {
@@ -55,6 +61,30 @@ margin-left: 80px ;
     border-radius: 50%;
 }
 
+.content-text {
+
+}
+
+
+
+.content-name {
+    display: inline;
+    font-size: 4.5em;
+    font-weight: 800;
+}
+
+.content-surname {
+    display: inline;
+    color: var(--text-color-secondary);
+    font-weight: 800;
+    font-size: 4.5em;
+
+}
+
+.content-subtext {
+    font-family: "open-sans", sans-serif;
+    font-size: 3.5em;
+}
 
 .contact {
     display: flex;
