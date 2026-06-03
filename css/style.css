@@ -109,3 +109,54 @@ margin-left: 80px ;
     height: 924px;
     background-color: var(--bg-color-secondary);
 }
+
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+    gap: 100px;
+
+    }
+.contact-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    font-weight: 800;
+    font-size: 3em;
+}
+
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1.25em;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 140%;
+    max-width: 550px;
+}
+
+.contact-button {
+     margin: 0 250px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--text-color-secondary);
+    padding: 14px 8px;
+    line-height: 170%;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 5px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.contact-social {
+    display: flex;
+    flex-direction: row;
+}
