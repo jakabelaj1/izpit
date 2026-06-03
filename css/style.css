@@ -44,6 +44,15 @@ margin-left: 80px ;
 }
 .content {
 
+
+    width: 1440px;
+    height: 924px;
+    background-color: var(--bg-color);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.content-main {
     display: flex;
     width: 1440px;
     height: 924px;
@@ -61,9 +70,6 @@ margin-left: 80px ;
     border-radius: 50%;
 }
 
-.content-text {
-
-}
 
 
 
@@ -85,6 +91,17 @@ margin-left: 80px ;
     font-family: "open-sans", sans-serif;
     font-size: 3.5em;
 }
+
+.content-arrow {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: -180px auto;
+
+
+}
+
+
 
 .contact {
     display: flex;
