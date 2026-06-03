@@ -3,6 +3,7 @@
     --bg-color-secondary: #333333;
     --text-color: #F7F7F7;
     --text-color-secondary: #E65F78;
+    --text-color-tertiary: #C6C6C6;
     font-family: "open-sans", sans-serif;
 }
 
@@ -90,6 +91,8 @@ margin-left: 80px ;
 .content-subtext {
     font-family: "open-sans", sans-serif;
     font-size: 1.5em;
+    color: var(--text-color-tertiary);
+    font-weight: 300;
 }
 
 .content-arrow {
